@@ -2,8 +2,10 @@
   --heading-font-family: "Roboto", sans-serif;
   --default-font-family: "Montserrat", sans-serif;
 }
+body {
+  background: black;
+}
 h1,
-h2,
 p {
   font-family: var(--heading-font-family);
   color: white;
@@ -14,6 +16,14 @@ h1 {
   font-weight: bold;
   line-height: 84px;
 }
+h2 {
+  color: white;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
 .hero p {
   font-size: 24px;
   font-weight: bold;
@@ -21,8 +31,10 @@ h1 {
 }
 .hero h2 {
   font-size: 18px;
+  font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 30px;
+  color: white;
 }
 .btn-branding {
   font-family: var(--default-font-family);
@@ -42,9 +54,47 @@ h1 {
   border-color: white;
   color: white;
 }
+.btn-branding-outline {
+  font-family: var(--default-font-family);
+  border-radius: 50px;
+  color: black;
+  background: white;
+  border-color: black;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  margin: 0px 10px;
+  padding: 18px 30px;
+}
+.btn-branding-outline:hover {
+  text-decoration: underline;
+  background: black;
+  border-color: white;
+  color: white;
+}
 
 .hero {
   background-image: url(images/bg1.png);
   text-align: center;
   padding: 160px 20px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
