@@ -40,7 +40,7 @@ h1 {
 }
 
 .hero {
-  background: black;
+  background-image: url(images/bg1.png);
   text-align: center;
   padding: 160px 20px;
 }
