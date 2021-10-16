@@ -1,7 +1,11 @@
+:root {
+  --heading-font-family: "Roboto", sans-serif;
+  --default-font-family: "Montserrat", sans-serif;
+}
 h1,
 h2,
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--heading-font-family);
   color: white;
 }
 
@@ -21,7 +25,7 @@ h1 {
   line-height: 30px;
 }
 .btn-branding {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--default-font-family);
   border-radius: 50px;
   color: black;
   background: white;
