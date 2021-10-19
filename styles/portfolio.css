@@ -103,6 +103,8 @@ p {
 }
 .content {
   margin: 30px;
+  text-align: center;
+  padding: 0;
 }
 .content p {
   font-size: 14px;
