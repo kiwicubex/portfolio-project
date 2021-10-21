@@ -138,3 +138,10 @@ p {
   margin: 40px;
   border-radius: 10px;
 }
+
+.contact-link {
+  color: rgb(0, 234, 255);
+}
+.contact-link:hover {
+  color: rgb(62, 189, 209);
+}
