@@ -99,7 +99,7 @@ p {
   color: white;
 }
 .content-container {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
@@ -144,4 +144,12 @@ p {
 }
 .contact-link:hover {
   color: rgb(62, 189, 209);
+}
+.active {
+  color: var(--branding-color) !important;
+  font-weight: bold !important;
+}
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
 }
